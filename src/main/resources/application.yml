@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: workergDemo
+console:
+  enabled: true
+  addresses:
+  - /127.0.0.1
+  - /0:0:0:0:0:0:0:1
+  header-name: X-Console-Verify
+  header-value: 55f66c4e-2842-44e9-bd7f-2b5ed015f2d6
+netty:
+  default:
+    allocator:
+      max-order: 3
